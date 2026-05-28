@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaMind AI — Empowering Intelligence</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Fonts: Syne (display) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+
+      <!-- Logo -->
+      <a href="#" class="nav-logo">
+        <span class="logo-icon">⬡</span>
+        NovaMind <span class="logo-accent">AI</span>
+      </a>
+
+      <!-- Nav Links -->
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- CTA Button -->
+      <a href="#contact" class="btn btn-gradient">Get Started</a>
+
+      <!-- Mobile Hamburger (CSS only) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input" />
+      <label for="nav-toggle" class="nav-hamburger">
+        <span></span><span></span><span></span>
+      </label>
+      <div class="nav-mobile">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="btn btn-gradient">Get Started</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="home">
+
+    <!-- Decorative background shapes -->
+    <div class="hero-shape hero-shape--1"></div>
+    <div class="hero-shape hero-shape--2"></div>
+    <div class="hero-shape hero-shape--3"></div>
+    <div class="hero-grid-lines"></div>
+
+    <div class="container hero-inner">
+
+      <!-- Left: Text -->
+      <div class="hero-text">
+        <span class="hero-badge">✦ Next-Gen AI Platform</span>
+        <h1 class="hero-headline">
+          Empowering Businesses with
+          <span class="text-gradient">Artificial Intelligence</span>
+        </h1>
+        <p class="hero-desc">
+          NovaMind AI transforms the way companies operate — automating workflows,
+          unlocking insights, and scaling intelligence across every layer of your business.
+        </p>
+        <div class="hero-ctas">
+          <a href="#services" class="btn btn-gradient">Explore Solutions</a>
+          <a href="#about" class="btn btn-outline">Learn More →</a>
+        </div>
+
+        <!-- Trust strip -->
+        <div class="hero-trust">
+          <span>Trusted by 500+ companies</span>
+          <div class="trust-dots">
+            <span class="dot dot--c"></span>
+            <span class="dot dot--p"></span>
+            <span class="dot dot--g"></span>
+            <span class="dot dot--o"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Illustration placeholder -->
+      <div class="hero-illustration">
+        <div class="illus-card illus-card--main">
+          <img src="images/ai-illustration.png" alt="AI Illustration" class="illus-img" />
+          <!-- Fallback if image missing -->
+          <div class="illus-fallback">
+            <div class="illus-orbit">
+              <div class="illus-core">
+                <span>NM</span>
+              </div>
+              <div class="illus-ring illus-ring--1">
+                <div class="illus-node">⬡</div>
+              </div>
+              <div class="illus-ring illus-ring--2">
+                <div class="illus-node">◈</div>
+              </div>
+              <div class="illus-ring illus-ring--3">
+                <div class="illus-node">⬟</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating stat cards -->
+        <div class="illus-float illus-float--a">
+          <span class="float-num">99%</span>
+          <span class="float-label">Accuracy Rate</span>
+        </div>
+        <div class="illus-float illus-float--b">
+          <span class="float-num">50+</span>
+          <span class="float-label">AI Models</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="about" id="about">
+    <div class="container">
+
+      <div class="about-inner">
+
+        <!-- Left: Image placeholder -->
+        <div class="about-visual">
+          <div class="about-img-wrap">
+            <img src="images/about-team.png" alt="About NovaMind" class="about-img" />
+            <div class="about-img-fallback">
+              <div class="about-abstract">
+                <div class="ab-block ab-block--1">AI</div>
+                <div class="ab-block ab-block--2">ML</div>
+                <div class="ab-block ab-block--3">NLP</div>
+                <div class="ab-block ab-block--4">CV</div>
+              </div>
+            </div>
+          </div>
+          <div class="about-badge">
+            <span class="about-badge-num">2019</span>
+            <span class="about-badge-text">Founded</span>
+          </div>
+        </div>
+
+        <!-- Right: Content -->
+        <div class="about-content">
+          <span class="section-tag">Who We Are</span>
+          <h2 class="section-title">Building the Intelligence <span class="text-gradient">Layer</span> of Tomorrow</h2>
+          <p class="about-desc">
+            NovaMind AI is an innovation-driven startup on a mission to democratize artificial intelligence
+            for businesses of every scale. We believe AI should be accessible, interpretable, and transformative.
+          </p>
+
+          <div class="about-pillars">
+            <div class="pillar">
+              <div class="pillar-icon">⚡</div>
+              <div>
+                <h4>AI Automation</h4>
+                <p>Eliminate repetitive tasks and free your team for high-value work with intelligent process automation.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">📊</div>
+              <div>
+                <h4>Smart Analytics</h4>
+                <p>Turn raw data into actionable intelligence with our real-time analytical dashboards and models.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">☁️</div>
+              <div>
+                <h4>Cloud-Based AI</h4>
+                <p>Deploy and scale AI solutions instantly with our secure, cloud-native infrastructure.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">🚀</div>
+              <div>
+                <h4>Innovation-Driven</h4>
+                <p>We push boundaries with continual R&D, staying ahead of the AI curve for your competitive edge.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Offer</span>
+        <h2 class="section-title">AI-Powered <span class="text-gradient">Services</span></h2>
+        <p class="section-sub">From intelligent chatbots to deep data analytics, our suite of AI services adapts to your business goals.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- Card 1 -->
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <img src="images/icon-chatbot.png" alt="Chatbot icon" class="service-icon-img" />
+            <span class="service-icon-fallback">🤖</span>
+          </div>
+          <h3 class="service-title">AI Chatbots</h3>
+          <p class="service-desc">
+            Deploy conversational AI agents that handle customer queries, support tickets,
+            and lead generation — around the clock.
+          </p>
+          <a href="#contact" class="service-link">Learn More →</a>
+          <div class="card-glow"></div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <img src="images/icon-analytics.png" alt="Analytics icon" class="service-icon-img" />
+            <span class="service-icon-fallback">📈</span>
+          </div>
+          <h3 class="service-title">Predictive Analytics</h3>
+          <p class="service-desc">
+            Anticipate trends, forecast demand, and make data-driven decisions
+            using our powerful ML prediction engines.
+          </p>
+          <a href="#contact" class="service-link">Learn More →</a>
+          <div class="card-glow"></div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <img src="images/icon-workflow.png" alt="Workflow icon" class="service-icon-img" />
+            <span class="service-icon-fallback">⚙️</span>
+          </div>
+          <h3 class="service-title">Workflow Automation</h3>
+          <p class="service-desc">
+            Streamline operations by automating complex multi-step workflows
+            with intelligent triggers, conditions, and actions.
+          </p>
+          <a href="#contact" class="service-link">Learn More →</a>
+          <div class="card-glow"></div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <img src="images/icon-data.png" alt="Data icon" class="service-icon-img" />
+            <span class="service-icon-fallback">🗄️</span>
+          </div>
+          <h3 class="service-title">Data Intelligence</h3>
+          <p class="service-desc">
+            Unify your data silos with our intelligent data fabric — enriched,
+            clean, and ready for AI-powered applications.
+          </p>
+          <a href="#contact" class="service-link">Learn More →</a>
+          <div class="card-glow"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FEATURES ===================== -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Why NovaMind</span>
+        <h2 class="section-title">Built for <span class="text-gradient">Scale</span> & Speed</h2>
+      </div>
+
+      <div class="features-grid">
+
+        <div class="feature-box">
+          <div class="feature-num">01</div>
+          <div class="feature-icon">⚡</div>
+          <h3>Fast Integration</h3>
+          <p>Connect NovaMind to your existing stack in minutes via REST APIs, SDKs, and pre-built connectors for 100+ platforms.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-num">02</div>
+          <div class="feature-icon">🔐</div>
+          <h3>Secure Platform</h3>
+          <p>Enterprise-grade security with SOC 2, GDPR compliance, end-to-end encryption, and role-based access controls.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-num">03</div>
+          <div class="feature-icon">📡</div>
+          <h3>Real-Time Insights</h3>
+          <p>Get live analytics and AI predictions with sub-second latency — so you can act on intelligence as it happens.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-num">04</div>
+          <div class="feature-icon">🌐</div>
+          <h3>Scalable Infrastructure</h3>
+          <p>Elastic cloud architecture that auto-scales from startup to enterprise workloads without any downtime or reconfiguration.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== STATISTICS ===================== -->
+  <section class="stats">
+    <div class="stats-bg"></div>
+    <div class="container stats-inner">
+      <div class="stat-item">
+        <span class="stat-num">500+</span>
+        <span class="stat-label">Clients Worldwide</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">99%</span>
+        <span class="stat-label">Prediction Accuracy</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">24/7</span>
+        <span class="stat-label">Expert Support</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">50+</span>
+        <span class="stat-label">AI Models Deployed</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Client Stories</span>
+        <h2 class="section-title">What Our <span class="text-gradient">Clients</span> Say</h2>
+      </div>
+
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">
+            NovaMind transformed our customer support operations. The AI chatbot handles 80% of queries autonomously — our team now focuses on complex, high-value interactions.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">
+              <img src="images/avatar-1.png" alt="Sarah Chen" />
+              <span class="avatar-fallback">SC</span>
+            </div>
+            <div>
+              <strong>Sarah Chen</strong>
+              <span>VP of Operations, TechFlow Inc.</span>
+            </div>
+          </div>
+          <div class="card-accent-bar"></div>
+        </div>
+
+        <div class="testimonial-card testimonial-card--featured">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">
+            The predictive analytics platform gave us a 6-month head start on market shifts. We outperformed the competition by 40% in Q3 — directly attributed to NovaMind insights.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">
+              <img src="images/avatar-2.png" alt="Marcus Okafor" />
+              <span class="avatar-fallback">MO</span>
+            </div>
+            <div>
+              <strong>Marcus Okafor</strong>
+              <span>CEO, Vertex Capital Group</span>
+            </div>
+          </div>
+          <div class="card-accent-bar"></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">
+            Integration took less than a day. The workflow automation alone saved us 120+ engineering hours per month. ROI was visible within the first two weeks of deployment.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">
+              <img src="images/avatar-3.png" alt="Priya Menon" />
+              <span class="avatar-fallback">PM</span>
+            </div>
+            <div>
+              <strong>Priya Menon</strong>
+              <span>CTO, Luminary Labs</span>
+            </div>
+          </div>
+          <div class="card-accent-bar"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PRICING ===================== -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Pricing</span>
+        <h2 class="section-title">Simple, <span class="text-gradient">Transparent</span> Plans</h2>
+        <p class="section-sub">No hidden fees. Scale up or down any time.</p>
+      </div>
+
+      <div class="pricing-grid">
+
+        <!-- Starter -->
+        <div class="pricing-card">
+          <div class="plan-name">Starter</div>
+          <div class="plan-price"><span class="price-currency">$</span>49<span class="price-period">/mo</span></div>
+          <p class="plan-desc">Perfect for small teams exploring AI for the first time.</p>
+          <ul class="plan-features">
+            <li>✓ 1 AI Chatbot</li>
+            <li>✓ Basic Analytics Dashboard</li>
+            <li>✓ 10,000 API calls/month</li>
+            <li>✓ Email Support</li>
+            <li>✓ 3 Workflow Automations</li>
+            <li class="muted">✗ Predictive Models</li>
+            <li class="muted">✗ Custom Integrations</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Get Started</a>
+        </div>
+
+        <!-- Pro (Featured) -->
+        <div class="pricing-card pricing-card--pro">
+          <div class="plan-badge">Most Popular</div>
+          <div class="plan-name">Pro</div>
+          <div class="plan-price"><span class="price-currency">$</span>149<span class="price-period">/mo</span></div>
+          <p class="plan-desc">For growing businesses ready to scale AI across operations.</p>
+          <ul class="plan-features">
+            <li>✓ 5 AI Chatbots</li>
+            <li>✓ Advanced Analytics + Reports</li>
+            <li>✓ 100,000 API calls/month</li>
+            <li>✓ Priority 24/7 Support</li>
+            <li>✓ 20 Workflow Automations</li>
+            <li>✓ 3 Predictive Models</li>
+            <li class="muted">✗ Custom Integrations</li>
+          </ul>
+          <a href="#contact" class="btn btn-gradient">Get Started</a>
+        </div>
+
+        <!-- Enterprise -->
+        <div class="pricing-card">
+          <div class="plan-name">Enterprise</div>
+          <div class="plan-price plan-price--custom">Custom</div>
+          <p class="plan-desc">Full-scale AI deployment tailored to enterprise requirements.</p>
+          <ul class="plan-features">
+            <li>✓ Unlimited AI Chatbots</li>
+            <li>✓ Real-Time BI + Custom Dashboards</li>
+            <li>✓ Unlimited API calls</li>
+            <li>✓ Dedicated Account Manager</li>
+            <li>✓ Unlimited Automations</li>
+            <li>✓ Unlimited Predictive Models</li>
+            <li>✓ Custom Integrations & SLA</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Contact Sales</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Let's Build Something <span class="text-gradient">Intelligent</span></h2>
+      </div>
+
+      <div class="contact-inner">
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h3>Talk to Our Team</h3>
+          <p>Have questions about our AI platform? Our team is ready to help you find the right solution for your business.</p>
+
+          <div class="contact-detail">
+            <span class="contact-icon">✉️</span>
+            <div>
+              <strong>Email</strong>
+              <span>hello@novamind.ai</span>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-icon">📞</span>
+            <div>
+              <strong>Phone</strong>
+              <span>+1 (800) 555-NOVA</span>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-icon">📍</span>
+            <div>
+              <strong>Address</strong>
+              <span>1200 Innovation Drive, Suite 400<br />San Francisco, CA 94105</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrap">
+          <form class="contact-form" action="#" method="post">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" placeholder="John" required />
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Doe" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@company.com" required />
+            </div>
+            <div class="form-group">
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company" placeholder="Your Company" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us about your project..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-gradient btn-full">Send Message →</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+
+      <!-- Brand -->
+      <div class="footer-brand">
+        <a href="#" class="nav-logo">
+          <span class="logo-icon">⬡</span>
+          NovaMind <span class="logo-accent">AI</span>
+        </a>
+        <p>Intelligence, engineered for the future. Empowering businesses with cutting-edge AI solutions.</p>
+
+        <!-- Social Icons (placeholder SVG circles) -->
+        <div class="footer-socials">
+          <a href="#" class="social-icon" aria-label="Twitter/X">
+            <img src="images/icon-twitter.png" alt="Twitter" />
+            <span>𝕏</span>
+          </a>
+          <a href="#" class="social-icon" aria-label="LinkedIn">
+            <img src="images/icon-linkedin.png" alt="LinkedIn" />
+            <span>in</span>
+          </a>
+          <a href="#" class="social-icon" aria-label="GitHub">
+            <img src="images/icon-github.png" alt="GitHub" />
+            <span>⌥</span>
+          </a>
+          <a href="#" class="social-icon" aria-label="YouTube">
+            <img src="images/icon-youtube.png" alt="YouTube" />
+            <span>▶</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="#">AI Chatbots</a></li>
+          <li><a href="#">Predictive Analytics</a></li>
+          <li><a href="#">Workflow Automation</a></li>
+          <li><a href="#">Data Intelligence</a></li>
+          <li><a href="#">API Access</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Case Studies</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Copyright bar -->
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 NovaMind AI, Inc. All rights reserved.</p>
+        <p>Made with ♥ for the future of intelligence.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
